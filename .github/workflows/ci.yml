@@ -28,7 +28,7 @@ jobs:
         with:
           python-version: "3.10"
           cache: "pip"
-      - run: pip install -r ./requirements-dev.txt
+      - run: pip install -r ./app/requirements-dev.txt
 
       # Runs a single command using the runners shell
       - name: Setup and build Docker image
